@@ -36,11 +36,10 @@ To spin up the Squid proxy container, follow these steps:
 
 To configure proxy settings on your local machine to use the Squid proxy, Set the `http_proxy` and `https_proxy` environment variables.
 
-    ```bash
-    export http_proxy=http://localhost:<squid-container-port>
-    export https_proxy=http://localhost:<squid-container-port>
-    ```
-
+```bash
+export http_proxy=http://localhost:<squid-container-port>
+export https_proxy=http://localhost:<squid-container-port>
+```
 
 ## How to Check Access Logs
 
